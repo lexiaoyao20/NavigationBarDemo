@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarBackgroundViewController</string>
+		<key>Title</key>
+		<string>设置导航栏的背景颜色</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBackgroundImageController</string>
+		<key>Title</key>
+		<string>设置导航栏的背景图</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarWithBackButtonController</string>
+		<key>Title</key>
+		<string>设置导航栏的返回按钮</string>
+	</dict>
+</array>
+</plist>
