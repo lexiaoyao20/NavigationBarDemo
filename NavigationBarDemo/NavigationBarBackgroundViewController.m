@@ -34,6 +34,7 @@
     
     //恢复到默认的设置
     self.navigationController.navigationBar.barTintColor = nil;
+    self.navigationController.navigationBar.tintColor = nil;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
 

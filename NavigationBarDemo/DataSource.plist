@@ -20,5 +20,17 @@
 		<key>Title</key>
 		<string>设置导航栏的返回按钮</string>
 	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarHideLineController</string>
+		<key>Title</key>
+		<string>隐藏导航栏底部的线条</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarBottomLineColorController</string>
+		<key>Title</key>
+		<string>设置导航栏底部的线条的颜色</string>
+	</dict>
 </array>
 </plist>
