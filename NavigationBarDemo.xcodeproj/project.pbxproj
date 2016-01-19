@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		930172991BA47CBB00D76D9C /* NavigationBackgroundImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930172981BA47CBB00D76D9C /* NavigationBackgroundImageController.m */; };
 		93085FDE1BB1A3BC008C294C /* NavigationBarHideLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93085FDD1BB1A3BC008C294C /* NavigationBarHideLineController.m */; };
-		9346446F1BB1B41A001E74CD /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346446E1BB1B41A001E74CD /* UIImage+ColorImage.m */; settings = {ASSET_TAGS = (); }; };
-		934644721BB1B533001E74CD /* NavigationBarBottomLineColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934644711BB1B533001E74CD /* NavigationBarBottomLineColorController.m */; settings = {ASSET_TAGS = (); }; };
+		9346446F1BB1B41A001E74CD /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346446E1BB1B41A001E74CD /* UIImage+ColorImage.m */; };
+		934644721BB1B533001E74CD /* NavigationBarBottomLineColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934644711BB1B533001E74CD /* NavigationBarBottomLineColorController.m */; };
 		935579571BA32E8800407CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935579561BA32E8800407CD2 /* main.m */; };
 		9355795A1BA32E8800407CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935579591BA32E8800407CD2 /* AppDelegate.m */; };
 		9355795D1BA32E8800407CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355795C1BA32E8800407CD2 /* ViewController.m */; };
@@ -22,6 +22,9 @@
 		9355798B1BA33A0C00407CD2 /* NavigationBarBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355798A1BA33A0C00407CD2 /* NavigationBarBackgroundViewController.m */; };
 		93C486C61BA726D200C45F05 /* NavigationBarWithBackButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C486C51BA726D200C45F05 /* NavigationBarWithBackButtonController.m */; };
 		93C486C81BA7278500C45F05 /* DataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93C486C71BA7278500C45F05 /* DataSource.plist */; };
+		93D2E2441C4DC4EF0088412F /* NavigationBarMoreButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2E2431C4DC4EF0088412F /* NavigationBarMoreButtonController.m */; };
+		93D2E2471C4DCADF0088412F /* UIBarButtonItem+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2E2461C4DCADF0088412F /* UIBarButtonItem+Custom.m */; };
+		93D2E24A1C4DEAFA0088412F /* NavigationBarAddSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2E2491C4DEAFA0088412F /* NavigationBarAddSegmentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,12 @@
 		93C486C41BA726D200C45F05 /* NavigationBarWithBackButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarWithBackButtonController.h; sourceTree = "<group>"; };
 		93C486C51BA726D200C45F05 /* NavigationBarWithBackButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarWithBackButtonController.m; sourceTree = "<group>"; };
 		93C486C71BA7278500C45F05 /* DataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataSource.plist; sourceTree = "<group>"; };
+		93D2E2421C4DC4EF0088412F /* NavigationBarMoreButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarMoreButtonController.h; sourceTree = "<group>"; };
+		93D2E2431C4DC4EF0088412F /* NavigationBarMoreButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarMoreButtonController.m; sourceTree = "<group>"; };
+		93D2E2451C4DCADF0088412F /* UIBarButtonItem+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Custom.h"; sourceTree = "<group>"; };
+		93D2E2461C4DCADF0088412F /* UIBarButtonItem+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Custom.m"; sourceTree = "<group>"; };
+		93D2E2481C4DEAFA0088412F /* NavigationBarAddSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarAddSegmentController.h; sourceTree = "<group>"; };
+		93D2E2491C4DEAFA0088412F /* NavigationBarAddSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarAddSegmentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,8 @@
 			children = (
 				9346446D1BB1B41A001E74CD /* UIImage+ColorImage.h */,
 				9346446E1BB1B41A001E74CD /* UIImage+ColorImage.m */,
+				93D2E2451C4DCADF0088412F /* UIBarButtonItem+Custom.h */,
+				93D2E2461C4DCADF0088412F /* UIBarButtonItem+Custom.m */,
 			);
 			name = Categorys;
 			sourceTree = "<group>";
@@ -185,6 +196,10 @@
 				93085FDD1BB1A3BC008C294C /* NavigationBarHideLineController.m */,
 				934644701BB1B533001E74CD /* NavigationBarBottomLineColorController.h */,
 				934644711BB1B533001E74CD /* NavigationBarBottomLineColorController.m */,
+				93D2E2421C4DC4EF0088412F /* NavigationBarMoreButtonController.h */,
+				93D2E2431C4DC4EF0088412F /* NavigationBarMoreButtonController.m */,
+				93D2E2481C4DEAFA0088412F /* NavigationBarAddSegmentController.h */,
+				93D2E2491C4DEAFA0088412F /* NavigationBarAddSegmentController.m */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -323,11 +338,14 @@
 				93085FDE1BB1A3BC008C294C /* NavigationBarHideLineController.m in Sources */,
 				9355795D1BA32E8800407CD2 /* ViewController.m in Sources */,
 				930172991BA47CBB00D76D9C /* NavigationBackgroundImageController.m in Sources */,
+				93D2E24A1C4DEAFA0088412F /* NavigationBarAddSegmentController.m in Sources */,
+				93D2E2471C4DCADF0088412F /* UIBarButtonItem+Custom.m in Sources */,
 				9355795A1BA32E8800407CD2 /* AppDelegate.m in Sources */,
 				9355798B1BA33A0C00407CD2 /* NavigationBarBackgroundViewController.m in Sources */,
 				9346446F1BB1B41A001E74CD /* UIImage+ColorImage.m in Sources */,
 				93C486C61BA726D200C45F05 /* NavigationBarWithBackButtonController.m in Sources */,
 				935579571BA32E8800407CD2 /* main.m in Sources */,
+				93D2E2441C4DC4EF0088412F /* NavigationBarMoreButtonController.m in Sources */,
 				934644721BB1B533001E74CD /* NavigationBarBottomLineColorController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

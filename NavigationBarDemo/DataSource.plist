@@ -32,5 +32,17 @@
 		<key>Title</key>
 		<string>设置导航栏底部的线条的颜色</string>
 	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarMoreButtonController</string>
+		<key>Title</key>
+		<string>在导航栏上添加多个按钮</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarAddSegmentController</string>
+		<key>Title</key>
+		<string>在导航栏上添加分段控件</string>
+	</dict>
 </array>
 </plist>

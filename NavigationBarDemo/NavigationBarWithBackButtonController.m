@@ -69,7 +69,7 @@
 }
 
 - (void)setCustomLeftButton {
-    UIView* leftButtonView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 60, 40)];
+    UIView* leftButtonView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, 40)];
     UIButton* leftButton = [UIButton buttonWithType:UIButtonTypeSystem];
     leftButton.backgroundColor = [UIColor clearColor];
     leftButton.frame = leftButtonView.frame;
