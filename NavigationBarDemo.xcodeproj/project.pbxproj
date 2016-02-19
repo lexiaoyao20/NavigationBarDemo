@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		930172991BA47CBB00D76D9C /* NavigationBackgroundImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930172981BA47CBB00D76D9C /* NavigationBackgroundImageController.m */; };
 		93085FDE1BB1A3BC008C294C /* NavigationBarHideLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93085FDD1BB1A3BC008C294C /* NavigationBarHideLineController.m */; };
+		931716F41C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931716F31C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.m */; };
 		9346446F1BB1B41A001E74CD /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346446E1BB1B41A001E74CD /* UIImage+ColorImage.m */; };
 		934644721BB1B533001E74CD /* NavigationBarBottomLineColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934644711BB1B533001E74CD /* NavigationBarBottomLineColorController.m */; };
 		935579571BA32E8800407CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935579561BA32E8800407CD2 /* main.m */; };
@@ -49,6 +50,8 @@
 		930172981BA47CBB00D76D9C /* NavigationBackgroundImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBackgroundImageController.m; sourceTree = "<group>"; };
 		93085FDC1BB1A3BC008C294C /* NavigationBarHideLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarHideLineController.h; sourceTree = "<group>"; };
 		93085FDD1BB1A3BC008C294C /* NavigationBarHideLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarHideLineController.m; sourceTree = "<group>"; };
+		931716F21C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarChangeBackgroundViewController.h; sourceTree = "<group>"; };
+		931716F31C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarChangeBackgroundViewController.m; sourceTree = "<group>"; };
 		9346446D1BB1B41A001E74CD /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
 		9346446E1BB1B41A001E74CD /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
 		934644701BB1B533001E74CD /* NavigationBarBottomLineColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarBottomLineColorController.h; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 				93D2E2431C4DC4EF0088412F /* NavigationBarMoreButtonController.m */,
 				93D2E2481C4DEAFA0088412F /* NavigationBarAddSegmentController.h */,
 				93D2E2491C4DEAFA0088412F /* NavigationBarAddSegmentController.m */,
+				931716F21C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.h */,
+				931716F31C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.m */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				9355798B1BA33A0C00407CD2 /* NavigationBarBackgroundViewController.m in Sources */,
 				9346446F1BB1B41A001E74CD /* UIImage+ColorImage.m in Sources */,
 				93C486C61BA726D200C45F05 /* NavigationBarWithBackButtonController.m in Sources */,
+				931716F41C76E37B00228E55 /* NavigationBarChangeBackgroundViewController.m in Sources */,
 				935579571BA32E8800407CD2 /* main.m in Sources */,
 				93D2E2441C4DC4EF0088412F /* NavigationBarMoreButtonController.m in Sources */,
 				934644721BB1B533001E74CD /* NavigationBarBottomLineColorController.m in Sources */,

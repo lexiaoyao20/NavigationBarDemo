@@ -44,5 +44,11 @@
 		<key>Title</key>
 		<string>在导航栏上添加分段控件</string>
 	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>NavigationBarChangeBackgroundViewController</string>
+		<key>Title</key>
+		<string>更改背景色</string>
+	</dict>
 </array>
 </plist>
